@@ -54,16 +54,16 @@ $ docker-compose up
 Run `$ docker images`. It will show something like this:
 
 ```
-REPOSITORY                              TAG             IMAGE ID       CREATED          SIZE
-awakelabs-api-backend_gateway_service   latest          48a57eb4fdb4   46 minutes ago   386MB
-awakelabs-api-backend_read_service      latest          158b695bfcfc   47 minutes ago   404MB
-awakelabs-api-backend_discovery         latest          922b2746c25c   47 minutes ago   381MB
-awakelabs-api-backend_write_service     latest          e681b7bbe0e6   3 hours ago      402MB
-awakelabs-api-backend_admin_service     latest          53dca5769368   11 hours ago     387MB
-dpage/pgadmin4                          latest          df872ce2bc9e   10 days ago      244MB
-postgres                                latest          293e4ed402ba   13 days ago      315MB
-redislabs/redistimeseries               latest          9efeb7d109a0   2 weeks ago      143MB
-openjdk                                 13-jdk-alpine   c4b0433a01ac   21 months ago    336MB
+REPOSITORY                                         TAG             IMAGE ID       CREATED          SIZE
+springboot-microservice-backend_gateway_service   latest          48a57eb4fdb4   46 minutes ago   386MB
+springboot-microservice-backend_read_service      latest          158b695bfcfc   47 minutes ago   404MB
+springboot-microservice-backend_discovery         latest          922b2746c25c   47 minutes ago   381MB
+springboot-microservice-backend_write_service     latest          e681b7bbe0e6   3 hours ago      402MB
+springboot-microservice-backend_admin_service     latest          53dca5769368   11 hours ago     387MB
+dpage/pgadmin4                                    latest          df872ce2bc9e   10 days ago      244MB
+postgres                                          latest          293e4ed402ba   13 days ago      315MB
+redislabs/redistimeseries                         latest          9efeb7d109a0   2 weeks ago      143MB
+openjdk                                           13-jdk-alpine   c4b0433a01ac   21 months ago    336MB
 ```
 Send `GET` request to this to check if every thing is running well.
 
