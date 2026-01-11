@@ -1,4 +1,4 @@
-# AwakeLabs Programming Challenge
+# Springboot Micorservice Backend
 
 This is a simple distributed implementation of the AwakeLabs Programming Challenge API. It has five initial services.
 
@@ -44,14 +44,14 @@ To ensure the security of the data in-transit the connection between the `read-s
 The whole application is `containerized` using `docker-compose`. Run the following command to initiate the project. It may take a few seconds to fully `start`.
 
 ```
-$ git clone https://github.com/iamtanbirahmed/awakelabs-backend.git
-$ cd awakelabs-backend
+$ git clone https://github.com/iamtanbirahmed/springboot-micorservice-backend.git
+$ cd springboot-micorservice-backend
 $ chmod 600 server.key
 $ docker-compose build
 $ docker-compose up
 ```
 
-Run `$ docker images`. It will show some-thing like this:
+Run `$ docker images`. It will show something like this:
 
 ```
 REPOSITORY                              TAG             IMAGE ID       CREATED          SIZE
@@ -185,9 +185,3 @@ Example response:
     }
 ]
 ```
-
-### Why `Java` ?
-
-- My plan was to implement a demo for a `scalable` architecture which could be quickly developed. `spring-boot` has some robust `libraries` which allows fast `API` development. 
-- The community is very strong. Most of the problems have detail discussion on how to solve.
-- Personally, I was not familliar with `python` libraries for `discovery` or `gateway.` 
