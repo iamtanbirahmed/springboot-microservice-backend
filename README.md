@@ -1,6 +1,6 @@
 # Springboot Micorservice Backend
 
-This is a simple distributed implementation of the AwakeLabs Programming Challenge API. It has five initial services.
+This is a simple distributed implementation of a Microservice Architecture. It has five initial services.
 
 - `read-service: Responsible for any reading operation.`
 - `write-service: Responsible for any write operation.`
