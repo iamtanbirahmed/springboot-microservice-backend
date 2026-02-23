@@ -47,8 +47,8 @@ The whole application is `containerized` using `docker-compose`. Run the followi
 $ git clone https://github.com/iamtanbirahmed/springboot-micorservice-backend.git
 $ cd springboot-micorservice-backend
 $ chmod 600 server.key
-$ docker-compose build
-$ docker-compose up
+$ docker compose build
+$ docker compose up -d
 ```
 
 Run `$ docker images`. It will show something like this:
@@ -64,7 +64,7 @@ dpage/pgadmin4                                    latest          df872ce2bc9e  
 postgres                                          latest          293e4ed402ba   13 days ago      315MB
 openjdk                                           13-jdk-alpine   c4b0433a01ac   21 months ago    336MB
 ```
-Send `GET` request to this to check if every thing is running well.
+Send `GET` request to this to check if everything is running well.
 
 ```
 https://localhost:8443/api/readservice/v0.1/read/
