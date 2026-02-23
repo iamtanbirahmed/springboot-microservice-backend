@@ -62,7 +62,6 @@ springboot-microservice-backend_write_service     latest          e681b7bbe0e6  
 springboot-microservice-backend_admin_service     latest          53dca5769368   11 hours ago     387MB
 dpage/pgadmin4                                    latest          df872ce2bc9e   10 days ago      244MB
 postgres                                          latest          293e4ed402ba   13 days ago      315MB
-redislabs/redistimeseries                         latest          9efeb7d109a0   2 weeks ago      143MB
 openjdk                                           13-jdk-alpine   c4b0433a01ac   21 months ago    336MB
 ```
 Send `GET` request to this to check if every thing is running well.
