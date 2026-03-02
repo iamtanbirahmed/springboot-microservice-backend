@@ -86,5 +86,5 @@ services:
 
 
 # # networks: 
-# #   awakelabs-networks:
+# #   vital-networks:
 # #     driver: bridge

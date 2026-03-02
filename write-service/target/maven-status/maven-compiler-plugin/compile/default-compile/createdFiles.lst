@@ -1,0 +1,7 @@
+com/vital/writeservice/dto/VitalSignDTO.class
+com/vital/writeservice/dto/StateDTO.class
+com/vital/writeservice/model/VitalSign.class
+com/vital/writeservice/dto/DataDTO.class
+com/vital/writeservice/dto/HeartRateDTO.class
+com/vital/writeservice/WriteServiceApplication.class
+com/vital/writeservice/component/EncryptionKeyComponent.class
