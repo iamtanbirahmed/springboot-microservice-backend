@@ -1,0 +1,4 @@
+com/vital/gateway/configure/SecurityConfig.class
+com/vital/gateway/GatewayApplication.class
+com/vital/gateway/configure/ServerConfig.class
+com/vital/gateway/configure/ServerConfig$1.class

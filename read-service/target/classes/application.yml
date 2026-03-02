@@ -27,7 +27,7 @@ spring:
     hikari:
       connection-timeout: 20000
       maximum-pool-size: 5
-    url: jdbc:postgresql://localhost:5432/test_db?sslmode=verify-full&ssl=true&sslrootcert=/Users/tanbirsagar/Documents/Projects/awakelabs-api-backend/read-service/src/main/resources/server.crt
+    url: jdbc:postgresql://localhost:5432/test_db?sslmode=verify-full&ssl=true&sslrootcert=/Users/tanbirsagar/Documents/Projects/vital-api-backend/read-service/src/main/resources/server.crt
     username: ENC(VIz0pQObno3EKnxqP6nohg==)
     password: ENC(4EP1OTFztkzyiHgJEIUakg==)
 
