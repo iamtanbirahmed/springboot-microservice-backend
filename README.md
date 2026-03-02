@@ -1,6 +1,8 @@
 # VITAL (Vital Information Tracking & Analytics Layer)
 
-![VITAL Icon](./vital_icon.png)
+<p align="center">
+  <img src="./vital_icon.png" alt="VITAL Icon" width="150" />
+</p>
 
 This is a simple distributed implementation of a Microservice Architecture. It has five initial services.
 
